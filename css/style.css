@@ -30,7 +30,7 @@ body{
     padding-bottom: 15px;
 }
 .letter hr{
-  margin: auto;    
+    margin: auto;    
 }
 .letter p{
     font-size: 14px;
@@ -42,7 +42,8 @@ body{
 .kards{
     display: flex;   
     padding-bottom: 0;  
-    justify-content: center;     
+    justify-content: center; 
+    width: 100%;    
 }
 .kards ul{
     list-style: none;    
@@ -62,9 +63,9 @@ body{
     position: relative;
 }
 .circle img{
-     position: absolute;
-     top: 20px;
-     left: 24px;     
+    position: absolute;
+    top: 20px;
+    left: 24px;     
 }
 h3{
     color:#333333;
@@ -76,11 +77,11 @@ h3{
     text-align: center;
 }
 .kards p{
-      color: #000000;
-      font-size: 14px;
-      font-family: "Open Sans", sans-serif;
-      text-align: center;
-      line-height: 19px;     
+    color: #000000;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 19px;     
 }
 .circle_2{
     width: 70px;
@@ -91,9 +92,9 @@ h3{
     position: relative;
 }
 .circle_2 img{
-     position: absolute;
-     top: 22px;
-     left: 15px;
+    position: absolute;
+    top: 22px;
+    left: 15px;
 }     
 .circle_3{
     width: 70px;
@@ -104,9 +105,9 @@ h3{
     position: relative;
 }
 .circle_3 img{
-     position: absolute;
-     top: 19px;
-     left: 25px;
+    position: absolute;
+    top: 19px;
+    left: 25px;
 }   
 .two{
     width: 100%;
@@ -181,4 +182,7 @@ footer p{
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     padding-top: 10px;
+}
+.contakt img:hover{
+    background-color:red;
 }
