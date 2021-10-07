@@ -39,10 +39,8 @@ body{
     line-height: 19px;   
 }  
 .kards{
-    display: flex;      
-    box-sizing: border-box;    
-    justify-content: center;
-    margin-left: 13px;  
+    display: flex;         
+    justify-content: center;    
     width: 100%;    
 }
 .kards ul{
@@ -53,6 +51,9 @@ body{
     float: left;
     padding-top: 30px;
     padding-right: 32px;                
+}
+.kards li:last-child{
+    padding-right: 0px;    
 }
 .circle{
     width: 70px;
