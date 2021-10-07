@@ -13,21 +13,21 @@
          url('../fonts/raleway-v22-latin-regular.woff') format('woff'); /* Modern Browsers */
 }
 body{
-     width: 1400px;
+     width: 100%;
  }        
 .one{
-    width: 1400px;
-    height: 250px;
+    width: 100%;
+    height: 170px;
     background-color: white;
 }
     
 .letter h2{
-    padding-top: 100px;
-    padding-left: 496px;
+    padding-top: 45px;
+    text-align: center;
     font-size: 36px;
     line-height: 42px;
     font-family: "Raleway","Arial", sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 .letter hr{
   margin: auto;    
@@ -35,23 +35,23 @@ body{
 .letter p{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
-    padding-top: 30px;
-    padding-left: 519px;
+    padding-top: 15px;
+    text-align: center;   
     line-height: 19px;   
 }  
 .kards{
-    display: inline-block;   
-    padding-bottom: 0;   
+    display: flex;   
+    padding-bottom: 0;  
+    justify-content: center;     
 }
 .kards ul{
-    list-style: none;
-    padding-left: 143px;
+    list-style: none;    
 }
 .kards li{
     width: 350px;
     float: left;
-    padding-top: 67px;
-    padding-right: 32px;    
+    padding-top: 30px;
+    padding-right: 32px;       
 }
 .circle{
     width: 70px;
@@ -68,12 +68,12 @@ body{
 }
 h3{
     color:#333333;
-    padding-top: 32px;
-    padding-left: 105px;
+    padding-top: 20px;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
     line-height: 27px;
+    text-align: center;
 }
 .kards p{
       color: #000000;
@@ -109,15 +109,15 @@ h3{
      left: 25px;
 }   
 .two{
-    width: 1400px;
-    height: 326px;    
+    width: 100%;
+    height: 250px;    
     background: url(../img/toun_\ image.png) no-repeat;
     box-shadow:0 0 0 163px rgba(0, 0, 0, 0.65) inset;
     background-size: cover;  
-    margin-top: 345px;     
+    margin-top: 230px;     
 }
 .two h2{
-    padding-top: 75px;
+    padding-top: 45px;
     font-family: "Raleway","Arial", sans-serif;
     font-size: 36px;    
     line-height: 42px;
@@ -161,8 +161,8 @@ h3{
     font-size:18px; 
 }
 footer{
-    width: 1400px;
-    height: 101px;     
+    width: 100%;
+    height: 75px;     
     background: #000000;
 }
 .contakt{
@@ -170,7 +170,7 @@ footer{
     justify-content: center;
 }
 .contakt li{
-    padding-top: 30px;
+    padding-top: 15px;
     float: left;
     padding-right: 15px;       
 }
@@ -180,5 +180,5 @@ footer p{
     line-height: 16px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    padding-top: 18px;
+    padding-top: 10px;
 }
