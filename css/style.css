@@ -60,14 +60,18 @@ body{
     background-size: cover;
     border-top: 1px solid black;
     box-shadow: 0 0 0 300px rgba(0, 0, 0, .45) inset;
+    
+}
+.first_left{
+    width: 50%;
+    padding-left: 110px;
 }
 .first_left h1{
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 60px;
     color: #FFFFFF;
-    padding-top: 109px;
-    padding-left: 110px;
+    padding-top: 109px;    
 }
 .first_left span{
     font-family: "Roboto", sans-serif;
@@ -76,6 +80,49 @@ body{
     color: #EC7979;
     padding-top: 109px;
 }
+.first_left h2{    
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 32px;    
+    font-style: normal;
+    font-weight: normal;
+    white-space: pre-wrap;
+    padding-bottom: 32px;
+}
+.first_left p{  
+    padding-top: 39px;    
+    width: 50%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 19px;  
+    padding-bottom: 39px;    
+    color: rgba(255, 255, 255, 0.8);
+}
+.first_left button{    
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    display: block;    
+    box-sizing: border-box;
+    transition: font-size .1s case in; 
+}
+.first_left a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 26px;
+    color: #FFFFFF;      
+}
+.first_left a:hover{
+    font-size:18px;
+} 
+
     
 
 
