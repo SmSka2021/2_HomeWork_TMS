@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
    /* raleway-regular - latin */
 @font-face {
@@ -55,6 +56,7 @@ body{
 .first{
     height: 600px;
     width: 100%;
+    display: flex;
     background-color: black;
     background-image: url(../img/background_1.svg);
     background-size: cover;
@@ -71,14 +73,14 @@ body{
     font-weight: normal;
     font-size: 60px;
     color: #FFFFFF;
-    padding-top: 109px;    
+    padding-top: 75px;    
 }
 .first_left span{
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 60px;
     color: #EC7979;
-    padding-top: 109px;
+    padding-top: 75px;
 }
 .first_left h2{    
     font-family: Raleway, sans-serif;
@@ -122,6 +124,108 @@ body{
 .first_left a:hover{
     font-size:18px;
 } 
+.first_right{
+    width: 320px;
+    background-color: #FFFFFF;;
+    height: 370px;   
+    margin-top: 111px;
+    border-radius: 8px;
+    border: 2px solid #EC7979;    
+    margin-left: 200px;      
+}
+.name_legenda p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;        
+    text-align: center;    
+    color: #333333; 
+    padding-top: 15px;   
+}
+.name_legenda span{
+    color: #EC7979;
+}
+.info_user label{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;    
+    color: #BDBDBD;    
+}
+.info_user{
+    text-align: left;
+    padding-top: 30px;    
+    padding-left: 25px;
+}
+.input_text_user{    
+    border: 0;    
+    width: 252px;   
+    border-bottom: 1px solid #BDBDBD;    
+    margin-left: 25px;
+    height:25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color:black;
+    padding-left: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    height: 54px;    
+    background: #EC7979;
+    border: 1px solid #EC7979;
+    border-radius: 0px 0px 8px 8px;
+    font-family: "Open Sans", sans-serif;  
+    color:black;     
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;    
+    text-align: center;    
+    color: #FFFFFF;
+    margin-top: 50px;       
+}
+.social_contakt{
+    width: 100%;
+    height: 110px;
+    background: #F8EFEF;
+    display: flex;    
+}
+.social_text{
+    width: 476px;
+}
+.social_text h5{      
+    padding-left: 111px;
+    padding-top: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+.social_text p{
+    padding-left: 111px;
+    padding-top: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.icon_contakt{
+    display: inline-flex;
+    padding-top: 34px; 
+    margin-left: 90px;  
+}
+.social_contakt li{
+    list-style: none; 
+    padding-right: 55px;
+    
+
+}
 
     
 
