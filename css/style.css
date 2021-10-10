@@ -486,7 +486,8 @@ h3{
     color: #FFFFFF;
     width:340px;
     padding-top: 15px;
-    border: 3px solid #F5F5F5; 
+    border: 3px solid #F5F5F5;
+    padding-bottom: 9px; 
 }
 .tabl_1_str_2 th{  
     width: 340px;
@@ -514,6 +515,7 @@ h3{
     line-height: 19px;
     color: rgba(255, 255, 255, 0.5);
     border: 3px solid #F5F5F5; 
+    padding-bottom: 14px;
 }
 .pircing_tabl_2{
     margin-top: 47px;      
