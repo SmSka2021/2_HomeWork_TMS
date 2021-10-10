@@ -429,7 +429,7 @@ h3{
     background-color: #F5F5F5;
     width: 100%;
 }
-.pricing h2{
+.pricing h2, .what_saying h2{
     padding-top: 80px;
     text-align: center;
     font-size: 36px;
@@ -438,10 +438,10 @@ h3{
     padding-bottom: 34px;
     text-transform: uppercase;
 }
-.pricing hr{
+.pricing hr, .what_saying hr{
     margin: auto;    
 }
-.pricing p{
+.pricing p, .what_saying p{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     padding-top: 34px;
@@ -523,9 +523,78 @@ h3{
 .pircing_tabl_3:last-child{
     margin-right: 0;
 }
+/*whot saying*/
+.what_saying{
+    width: 100%;
+    height: 600px;
+}
+.saying_info{
+    display: flex;
+    justify-content: center;
+    box-sizing:border-box;  
+    list-style: none;  
+}
+.kards_saying{    
+    margin-top: 67px;
+    width: 298px;
+    margin-right: 112px;
+}
+.kards_saying:last-child{ 
+    margin-right: 0;
+}
+.saying{
+    width: 298px;
+    min-height:110px;
+    background-color: #E2E2E2;
+    border-radius: 7px;    
+}
+.kards_saying li{
+    float: left;    
+}
+.saying p{
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
+.foto_name_user{
+    width: 100%;
+    padding-top: 22px;
+}
+.foto_name_user img{
+    border-radius: 50%;
+    float: left;  
+    margin-left: 25px;    
+}
+.foto_name_user h5{
+    font-family: "Open Sans", sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;      
+    color: #333333;
+    padding-top: 10px;  
+    text-align: right;    
+    padding-right: 50px;
+}
+.foto_name_user p{
+    font-family: "Open Sans", sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    padding-top: 12px;
+    text-align: right;    
+    padding-right: 50px;    
+}
 
 /*TOWN*/
-.fourth{
+.fourth {
     width: 100%;
     height: 220px;    
     background: url(../img/toun_\ image.png) no-repeat;
@@ -576,6 +645,8 @@ h3{
 .fourth a:hover{
     font-size:18px; 
 }  
+
+
 /*FOOTER*/
 footer{
     width: 100%;
