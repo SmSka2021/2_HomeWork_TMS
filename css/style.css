@@ -637,15 +637,10 @@ h3{
     width: 100%;         
     margin-top: 70px;
 }
-.left_form{
+.left_form, .right_form {
     width: 50%;
     float: left;       
     margin: 0; 
-    height: 280px;   
-}
-.right_form{
-    width: 50%;
-    float: left;
     height: 280px;   
 }
 .info_user2 label{
