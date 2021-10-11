@@ -20,8 +20,7 @@ body{
     height: 70px;
     width: 100%;
     background-color: black;
-    display: flex;
-    
+    display: flex;    
 }
 .logo h4{
     font-family: "Raleway", sans-serif;    
@@ -61,8 +60,7 @@ body{
     background-image: url(../img/background_1.svg);
     background-size: cover;
     border-top: 1px solid black;
-    box-shadow: 0 0 0 300px rgba(0, 0, 0, .45) inset;
-    
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, .45) inset;    
 }
 .first_left{
     width: 50%;
@@ -325,8 +323,7 @@ input[type=submit]{
 .second_image img{
     margin-top: 100px;
     margin-left: 53px;  
-}  
-   /* Домашняя работа к уроку 3-4*/     
+}        
 .third{
     width: 100%;
     height: 520px;
@@ -429,7 +426,7 @@ h3{
     background-color: #F5F5F5;
     width: 100%;
 }
-.pricing h2, .what_saying h2{
+.pricing h2, .what_saying h2, .before_footer h2{
     padding-top: 80px;
     text-align: center;
     font-size: 36px;
@@ -438,10 +435,10 @@ h3{
     padding-bottom: 34px;
     text-transform: uppercase;
 }
-.pricing hr, .what_saying hr{
+.pricing hr, .what_saying hr, .before_footer hr{
     margin: auto;    
 }
-.pricing p, .what_saying p{
+.pricing p, .what_saying p, .before_footer p{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     padding-top: 34px;
@@ -592,23 +589,22 @@ h3{
     text-align: right;    
     padding-right: 50px;    
 }
-
-/*TOWN*/
+/*fon TOWN*/
 .fourth {
     width: 100%;
-    height: 220px;    
+    height: 320px;    
     background: url(../img/toun_\ image.png) no-repeat;
-    box-shadow:0 0 0 110px rgba(0, 0, 0, 0.65) inset;
+    box-shadow:0 0 0 160px rgba(0, 0, 0, 0.65) inset;
     background-size: cover;         
 }
 .fourth h2{
-    padding-top: 35px;
+    padding-top: 58px;
     font-family: "Raleway","Arial", sans-serif;
     font-size: 36px;    
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 20px;
+    padding-bottom: 34px;
 }
 .fourth hr{
     margin: auto;  
@@ -619,8 +615,8 @@ h3{
     line-height: 19px;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 34px;
+    padding-bottom: 57px;
 }
 .fourth button{    
     width: 135px;
@@ -645,8 +641,90 @@ h3{
 .fourth a:hover{
     font-size:18px; 
 }  
-
-
+/*.before_footer*/
+.before_footer{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+.before_footer_form{
+    display: flex;
+    width: 100%;   
+}
+#user_data{
+    width: 100%;         
+    margin-top: 70px;
+}
+.left_form{
+    width: 50%;
+    float: left;       
+    margin: 0; 
+    height: 280px;   
+}
+.right_form{
+    width: 50%;
+    float: left;
+    height: 280px;   
+}
+.info_user2 label{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;    
+    color: #BDBDBD;     
+    margin-top: 0;     
+}
+.left_form p{
+    text-align: left;     
+    padding-left: 110px;
+    width: 478px;
+    padding-top: 0;
+}
+.input_text_user2{    
+    border: 0;    
+    width: 478px;   
+    border-bottom: 1px solid #BDBDBD;    
+    margin-left: 90px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color:black;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+textarea{
+    border: 0;    
+    width: 478px;   
+    border-bottom: 1px solid #BDBDBD; 
+    margin-left: 70px;  
+    height: 220px;
+    color: #BDBDBD;
+    resize: vertical;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;        
+    margin-top: 0;   
+}
+.before_footer_form button{
+    display: block;
+    width: 166px;
+    height: 42px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;           
+    font-family: "Open Sans", sans-serif; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;    
+    text-align: center;    
+    color: #FFFFFF;  
+    margin-left: auto; 
+    margin-right: auto;      
+}
 /*FOOTER*/
 footer{
     width: 100%;
